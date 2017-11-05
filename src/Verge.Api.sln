@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Verge.Api", "Verge.Api\Verge.Api.csproj", "{EE44C0A9-8B2C-4787-AE09-73A9E065B9D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verge.Api.Tests", "Verge.Api.Tests\Verge.Api.Tests.csproj", "{913269DB-6EAC-4C04-8DE9-CE62DD469DC6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EE44C0A9-8B2C-4787-AE09-73A9E065B9D4} = {EE44C0A9-8B2C-4787-AE09-73A9E065B9D4}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE44C0A9-8B2C-4787-AE09-73A9E065B9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE44C0A9-8B2C-4787-AE09-73A9E065B9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE44C0A9-8B2C-4787-AE09-73A9E065B9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE44C0A9-8B2C-4787-AE09-73A9E065B9D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{913269DB-6EAC-4C04-8DE9-CE62DD469DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{913269DB-6EAC-4C04-8DE9-CE62DD469DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{913269DB-6EAC-4C04-8DE9-CE62DD469DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{913269DB-6EAC-4C04-8DE9-CE62DD469DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5A06A77-3FFA-4140-BBF5-982BCA8C2913}
+	EndGlobalSection
+EndGlobal
